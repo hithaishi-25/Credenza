@@ -28,12 +28,29 @@ function Catalogue() {
         </div>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4
-      mt-10 px-10 md:px-5 lg:px-32' >
-       
-        <img src={Bacteria} className='w-full rounded-3xl object-cover'/>
-        
-        <img src={Earth} className='w-full rounded-3xl object-cover' />
-        <img src={Pollination} className='w-full rounded-3xl object-cover' />
+        mt-10 px-10 md:px-5 lg:px-32' >
+
+        <div className='img-wrapper relative cursor-pointer'>
+          <img src={Bacteria} className='w-full rounded-3xl object-cover shadow-lg transition-transform transform hover:scale-105'/>
+          <h1 className='absolute text-center font-sans bottom-4 left-0 right-0
+          text-white text-xl font-bold bg-black bg-opacity-10 p-2 rounded'>
+            Protista Family
+          </h1>     
+        </div>
+        <div className='img-wrapper relative cursor-pointer'>
+          <img src={Earth} className='w-full rounded-3xl object-cover shadow-lg transition-transform transform hover:scale-105' />
+          <h1 className='absolute text-center font-sans bottom-4 left-0 right-0
+           text-white text-xl font-bold bg-black bg-opacity-10 p-2 rounded'>
+            Earth Core
+          </h1>
+        </div>
+        <div className='img-wrapper relative cursor-pointer'>
+          <img src={Pollination} className='w-full rounded-3xl object-cover shadow-lg transition-transform transform hover:scale-105' />
+          <h1 className='absolute text-center font-sans bottom-4 left-0 right-0 
+            text-white text-xl font-bold bg-black bg-opacity-10 p-2 rounded'>
+            Pollination
+          </h1>
+        </div>
       </div>
       
     </>
