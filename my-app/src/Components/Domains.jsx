@@ -17,8 +17,15 @@ function Domains() {
         />
         <div className='ml-4'>
           <h2 className='text-blue-900 font-bold text-[30px] mt-5' >Learning Science</h2>
-          <p className='mt-5'>Description text goes here</p>
-          <a href="#">Read More</a>
+          <p className='mt-5'>Our approach involves delving into every science concept, 
+          meticulously craftign audio visual presentations that bring the subject matter to life.
+          We are dedicatedd to t ransforming complex ideas into info engaging 
+          visual experiences, ensuring that learners grasp the essence of each
+          concept effortlessly</p>
+          <div className='mt-5 text-blue-500 hover:text-blue-900'>
+            <a href="#" >Read More</a>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -34,9 +41,15 @@ function Domains() {
           className="object-contain rounded-2xl w-full h-full  "
         />
         <div className='ml-4'>
-          <h2 className='text-blue-900 font-bold text-[30px] mt-5' >Learning Science</h2>
-          <p className='mt-5'>Description text goes here</p>
-          <a href="#">Read More</a>
+          <h2 className='text-blue-900 font-bold text-[30px] mt-3' >Vedic Math</h2>
+          <p className='mt-5'>Our approach involves delving into every science concept, 
+          meticulously craftign audio visual presentations that bring the subject matter to life.
+          We are dedicatedd to t ransforming complex ideas into info engaging 
+          visual experiences, ensuring that learners grasp the essence of each
+          concept effortlessly</p>
+          <div className='mt-5 text-blue-500 hover:text-blue-900'>
+            <a href="#" >Read More</a>
+          </div>
         </div>
       </div>
     </div>
@@ -52,15 +65,19 @@ function Domains() {
           rounded-2xl w-full h-full "
         />
         <div className='ml-4'>
-          <h2 className='text-blue-900 font-bold text-[30px] mt-5' >Learning Science</h2>
-          <p className='mt-5'>Description text goes here</p>
-          <a href="#">Read More</a>
+          <h2 className='text-blue-900 font-bold text-[30px] mt-5' >Bespoke</h2>
+          <p className='mt-5'>Our approach involves delving into every science concept, 
+          meticulously craftign audio visual presentations that bring the subject matter to life.
+          We are dedicatedd to t ransforming complex ideas into info engaging 
+          visual experiences, ensuring that learners grasp the essence of each
+          concept effortlessly</p>
+          <div className='mt-5 text-blue-500 hover:text-blue-900'>
+            <a href="#" >Read More</a>
+          </div>
         </div>
       </div>
     </div>
-
   </>
-
   );
 }
 
