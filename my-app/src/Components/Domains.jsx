@@ -6,7 +6,7 @@ function Domains() {
   return (
   <>
 
-    <div className='felx flex-col m-15'>
+    <div className='felx flex-col m-15 mt-5'>
       <div className="grid grid-cols-1   
         md:grid-cols-2 mt-10 px-10 md:px-15 lg:px-32 gap-8
         ">
