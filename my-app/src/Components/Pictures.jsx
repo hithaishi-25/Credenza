@@ -1,17 +1,29 @@
-// import React from 'react'
-// impoer ImageSlider from "./ImageSlider"
-// import Slider from 'react-slick';
-// function Pictures() {
-//   const slides=[
-//     {},
-//     {},
-//     {}
-//   ]
-//   return (
-//     <div>
-//       <Slider slides={slides}/>
-//     </div>
-//   )
-// }
 
-// export default Pictures
+import React from 'react'
+// import Space from '../assets/Images/Space.jpg'
+import Man from '../assets/Images/Man.jpg'
+function Pictures() {
+  return (
+
+    <>
+      <div className="flex justify-center items-center mt-8 mb-8">
+        <div className="flex flex-col items-center p-4">
+          <div className="flex justify-center w-full md:w-auto">
+            <img src={Man} 
+              className="w-[200] ml-1 h-auto object-cover shadow-lg transition-transform transform hover:scale-105"
+              alt="not available" 
+            />  
+          </div>
+          <div>
+            <p className="text-center text-m text-blue-900 mt-5">
+              Our visual approach fosters critical thinking, creativity, and a true passion for learning.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    
+    </>
+  )
+}
+export default Pictures

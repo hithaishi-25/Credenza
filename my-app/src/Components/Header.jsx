@@ -20,11 +20,8 @@ function Header() {
           Contact Us
         </button>
       </div>
-      {/* <button className='bg-blue-700 hover:bg-blue-900 text-white font-semibold rounded-md py-2 px-4 shadow-lg' >Contact Us</button> */}
-     
     </div>
     </>
   )
 }
-
 export default Header;
